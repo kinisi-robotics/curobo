@@ -46,6 +46,8 @@ cuRobo package is split into several modules:
 # https://github.com/matplotlib/matplotlib/blob/master/lib/matplotlib/__init__.py#L161
 def _get_version():
     """Return the version string used for __version__."""
+    # Bren: Ths prevents us needing setuptools_scm
+    return "v0.7.0-no-tag"
     # Standard Library
     import pathlib
 
